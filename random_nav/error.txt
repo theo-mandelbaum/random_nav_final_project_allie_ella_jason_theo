@@ -1,0 +1,36 @@
+[INFO] [1765136284.898243139] [rand_nav]: Remaining mission time: 27.03 seconds
+[INFO] [1765136284.973883573] [rand_nav]: Time remaining: 8 seconds
+[INFO] [1765136285.973384738] [rand_nav]: Time remaining: 7 seconds
+[INFO] [1765136286.973791631] [rand_nav]: Time remaining: 6 seconds
+[INFO] [1765136287.396584425] [rand_nav]: Estimated time to return to start: 8.22 seconds
+[INFO] [1765136287.397145742] [rand_nav]: Remaining mission time: 24.53 seconds
+[INFO] [1765136287.398019639] [rand_nav]: Time to go home. Queued return goal and canceling current goal.
+[INFO] [1765136287.414680431] [rand_nav]: Goal cancel request completed.
+[INFO] [1765136287.415501122] [rand_nav]: Sending return goal after cancel.
+[INFO] [1765136287.416307302] [rand_nav]: Sending return to start goal.
+[INFO] [1765136287.417427497] [rand_nav]: Sending new goal to navigation server at (2.23, 1.16)
+[INFO] [1765136287.430933728] [rand_nav]: Goal accepted!
+[WARN] [1765136287.442414816] [rand_nav]: Goal was canceled.
+[WARN] [1765136287.443844222] [rand_nav]: Goal aborted.
+[INFO] [1765136289.897518683] [rand_nav]: Estimated time to return to start: 8.22 seconds
+[INFO] [1765136289.898654183] [rand_nav]: Remaining mission time: 22.03 seconds
+[INFO] [1765136292.396439686] [rand_nav]: Estimated time to return to start: 8.22 seconds
+[INFO] [1765136292.397025265] [rand_nav]: Remaining mission time: 19.53 seconds
+[INFO] [1765136294.896586442] [rand_nav]: Estimated time to return to start: 8.22 seconds
+[INFO] [1765136294.897425931] [rand_nav]: Remaining mission time: 17.03 seconds
+[INFO] [1765136297.396363837] [rand_nav]: Estimated time to return to start: 8.22 seconds
+[INFO] [1765136297.397005390] [rand_nav]: Remaining mission time: 14.53 seconds
+[INFO] [1765136299.896975820] [rand_nav]: Estimated time to return to start: 8.22 seconds
+[INFO] [1765136299.897918012] [rand_nav]: Remaining mission time: 12.03 seconds
+[INFO] [1765136302.397615627] [rand_nav]: Estimated time to return to start: 8.22 seconds
+[INFO] [1765136302.398685553] [rand_nav]: Remaining mission time: 9.53 seconds
+[INFO] [1765136304.896673483] [rand_nav]: Estimated time to return to start: 8.22 seconds
+[INFO] [1765136304.897338934] [rand_nav]: Remaining mission time: 7.03 seconds
+[INFO] [1765136307.396630724] [rand_nav]: Estimated time to return to start: 8.22 seconds
+[INFO] [1765136307.397261469] [rand_nav]: Remaining mission time: 4.53 seconds
+[INFO] [1765136309.897327732] [rand_nav]: Estimated time to return to start: 8.22 seconds
+[INFO] [1765136309.898226993] [rand_nav]: Remaining mission time: 2.03 seconds
+[WARN] [1765136312.396696018] [rand_nav]: Mission time exceeded.
+[WARN] [1765136314.897332070] [rand_nav]: Mission time exceeded.
+[WARN] [1765136317.396767768] [rand_nav]: Mission time exceeded.
+[WARN] [1765136319.897201202] [rand_nav]: Mission time exceeded.
