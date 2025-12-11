@@ -451,9 +451,14 @@ class RandomNavNode(rclpy.node.Node):
                 self.get_logger().warn("No valid goals found! Using random fallback.")
                 next_goal = create_random_free_goal(self.map)
             else:
-                # 4. Get the best block and generate a point
-                score, best_block = queue.get()
-                self.get_logger().info(f"Selected block with score: {score}")
+                # Choose from top 3 scoring blocks
+                num_candidates = min(3, queue.qsize())
+                candidates = [queue.get() for _ in range(num_candidates)]
+                score, best_block = random.choice(candidates)
+            
+                self.get_logger().info(
+                    f"Selected block among top {num_candidates} candidates (score={score})"
+                )
                 next_goal = self.generate_random_point(best_block)
                 
                 self.publish_debug_grid()
